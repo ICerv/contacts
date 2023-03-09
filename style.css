@@ -45,24 +45,21 @@
 /* ----Tvoje styly----- */
 .contact-list {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
   flex-grow: 1;
 }
 
 .buttons {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
